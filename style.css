@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Sniglet&display=swap');
 body {
     background-color: #f8fafc;
+    font-family: 'Cabin', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sniglet', cursive;
 }
