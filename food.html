@@ -14,36 +14,38 @@
 <body>    
     <div class="container">
         <div class="d-flex align-items-center my-4">
-            <a href="table.html" class="text-dark px-3">
+            <a href="kitchen.html" class="text-dark px-3">
                 <i class="far fa-arrow-left"></i>
             </a>
-            <h5 class="my-0 flex-fill text-center text-uppercase">Table 1</h5>
+            <h5 class="my-0 flex-fill text-center text-uppercase">Food Station</h5>
         </div>
 
-        <p class="text-muted">Click on item to add to order.</p>
+        <ul class="nav justify-content-center text-uppercase text-dark my-3">
+            <li class="nav-item">
+                <a class="nav-link font-weight-bold text-dark border bg-light rounded" href="#">
+                    Orders
+                    <span class="badge badge-secondary">2</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">
+                    Prepared
+                    <span class="badge badge-secondary">5</span>
+                </a>
+            </li>
+        </ul>
+
+        <p class="text-muted">Click if you have prepared the dish.</p>
         
         <div class="list-group shadow-sm">
-            <div class="list-group-item text-center text-uppercase text-muted">
-                Goreng-goreng
-            </div>
-            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">
+            <a href="#" class="list-group-item list-group-item-action">
                 <strong>Nasi Ayam</strong>
-                <span>RM7.50</span>
+                <p class="mb-0 mt-2 text-muted">Tak nak sayur. Kurang pedas.</p>
+                <span class="mt-2 d-block">Table 1</span>
             </a>
-            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">
-                <strong>Mee Goreng</strong>
-                <span>RM5.50</span>
-            </a>
-            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">
+            <a href="#" class="list-group-item list-group-item-action">
                 <strong>Nasi Goreng Kampung</strong>
-                <span>RM8.00</span>
-            </a>
-            <div class="list-group-item text-center text-uppercase text-muted">
-                Minuman
-            </div>
-            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">
-                <strong>Teh Ais</strong>
-                <span>RM4.00</span>
+                <span class="mt-2 d-block">Table 1</span>
             </a>
         </div>
     </div>
